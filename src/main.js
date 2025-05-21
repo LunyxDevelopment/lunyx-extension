@@ -1,6 +1,6 @@
 import plugin from '../plugin.json';
 
-class LunyxAIPro {
+class Lunyx {
 
   async init() {
     // plugin initialisation

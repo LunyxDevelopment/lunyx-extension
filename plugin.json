@@ -1,6 +1,6 @@
 {
-  "id": "lunyx.extension.aiislegend",
-  "name": "Lunyx: Ai Is Legend",
+  "id": "lunyx.extension.nane",
+  "name": "Lunyx: Extension",
   "main": "main.js",
   "version": "1.0.0",
   "readme": "readme.md",
