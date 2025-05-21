@@ -10,8 +10,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log(colors.green.bold('✨ Welcome to your Lunyx Extension Creator! ✨'));
-console.log(colors.cyan('Hello world!'));
+console.log(colors.cyan('✨ Welcome to your Lunyx Extension Creator! ✨'));
 
 rl.question(colors.blue('What name do you want to give to your Lunyx extension? '), (projectName) => {
   if (!projectName) {
