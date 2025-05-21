@@ -1,9 +1,9 @@
 import plugin from '../plugin.json';
 
-class Lunyx {
+class LunyxAIPro {
 
   async init() {
-    // plugin initialisation 
+    // plugin initialisation
   }
 
   async destroy() {
@@ -12,7 +12,7 @@ class Lunyx {
 }
 
 if (window.acode) {
-  const LunyxExtension = new Lunyx();
+  const LunyxExtension = new AIPro();
   acode.setPluginInit(plugin.id, async (baseUrl, $page, { cacheFileUrl, cacheFile }) => {
     if (!baseUrl.endsWith('/')) {
       baseUrl += '/';
