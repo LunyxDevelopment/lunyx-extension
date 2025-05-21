@@ -1,0 +1,19 @@
+{
+  "id": "lunyx.extension.name",
+  "name": "Lunyx Extention",
+  "main": "main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "minVersionCode" : 290,
+  "license": "MIT",
+  "changelogs": "changelogs.md",
+  "keywords": [],
+  "price": 0,
+  "author": {
+    "name": "Rugved",
+    "email": "rugveddanej.mail@gmail.com",
+    "github": "rugveddanej"
+  }
+}
