@@ -33,7 +33,10 @@ let buildConfig = {
   logLevel: "info",
   color: true,
   outdir: "dist",
-  plugins: [sassPlugin, zipPlugin],
+  plugins: [
+    sassPlugin(),  // Note the parentheses to call the function
+    zipPlugin
+  ],
 };
 
 // Main function to handle both serve and production builds
